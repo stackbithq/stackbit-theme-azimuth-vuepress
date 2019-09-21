@@ -6,12 +6,15 @@
 	        <h1 class="post-title">{{ data.title }}</h1>
 	      </header>
 	      <div class="post-thumbnail" v-if="data.img_path">
-	        <img :src="'/'+data.img_path" :alt="data.title" />
+	        <img :src="data.img_path" :alt="data.title" />
+	      </div>
+	      <div class="post-thumbnail" v-if="data.content_img_path">
+	      	<img :src="data.content_img_path" :alt="data.title" />
 	      </div>
 	      <div class="post-subtitle" v-if="data.subtitle">
 	        {{ data.subtitle }}
 	      </div>
-	      <div class="post-content" v-html="data.content" />
+	      <Content />
 	    </article>
 	  </div>
 	</div>
