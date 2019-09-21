@@ -11,5 +11,8 @@
     "sass-loader": "^7.1.0",
     "vuepress": "^1.0.0",
     "vuepress-plugin-feed": "^0.1.6"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
   }
 }

@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'Sean Williams',
-  description: 'A blog about meta thinking',
+  title: 'Azimuth',
+  description: 'Azimuth Vuepress Theme',
   themeConfig: {
     header: {
       title: "Azimuth",
       logo_img: '/img/logo.png',
       nav: [
         { label: 'Home', url: '/' }, 
-        { label: 'Features', url: '/feature' },
+        { label: 'Features', url: '/features' },
         { label: 'Pricing', url: '/pricing' },
         { label: 'Style Guide', url: '/style-guide' }
       ],
@@ -34,13 +34,13 @@ module.exports = {
       content: "&copy; Stackbit. All rights reserved.",
       links: [
         { text: 'Made with Stackbit', url: 'https://www.stackbit.com', new_window: true }, 
+      ],
+      social: [
+        { type: "twitter", title: "Twitter", url: "https://twitter.com/" },
+        { type: "instagram", title: "Instagram", url: "https://www.instagram.com/"  },
+        { type: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/"  },
       ]
     },
-    socialLinks: [
-      { type: "twitter", title: "Twitter", url: "https://twitter.com/" },
-      { type: "instagram", title: "Instagram", url: "https://www.instagram.com/"  },
-      { type: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/"  },
-    ]
   },
   dest: "dist",
   plugins: {
