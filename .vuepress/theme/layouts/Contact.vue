@@ -47,9 +47,6 @@
 
 <script>
 	export default {
-	  metaInfo: {
-	    title: 'Contact - Stackbit Azimuth Theme'
-	  },
 	  computed: {
 	    data() {
 	      return this.$page.frontmatter;

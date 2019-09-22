@@ -10,9 +10,6 @@
   import CtaSection from "../components/CtaSection"
 
   export default {
-    metaInfo: {
-      title: 'Features - Stackbit Azimuth Theme'
-    },
     computed: {
       featuresData() {
         return this.$page.frontmatter

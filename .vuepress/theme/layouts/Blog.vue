@@ -30,9 +30,6 @@
 <script>
   import moment from "moment"
   export default {
-    metaInfo: {
-      title: 'Blog - Stackbit Azimuth Theme'
-    },
     computed: {
       blogList() {
 

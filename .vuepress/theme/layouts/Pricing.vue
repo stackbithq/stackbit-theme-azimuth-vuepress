@@ -10,9 +10,6 @@
   import FaqSection from "../components/FaqSection"
 
   export default {
-    metaInfo: {
-      title: 'Features - Stackbit Azimuth Theme'
-    },
     computed: {
       pricingData() {
         return this.$page.frontmatter
